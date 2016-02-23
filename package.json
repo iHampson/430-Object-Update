@@ -4,11 +4,13 @@
   "description": "Update an object's property across the server",
   "main": "./server/server.js",
   "scripts": {
-    "test": "jshint ./server/"
+    "test": "jshint ./server/ && jshint ./client/client.js",
+    "start": "node server/server.js"
   },
   "author": "Ian Hampson",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.13.4",
     "socket.io": "^1.4.5"
   },
   "devDependencies": {

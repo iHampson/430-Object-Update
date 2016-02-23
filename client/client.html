@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- import the websocket client library. You can code websockets from scratch
+         but we will just import a library. In this case we are using socket.io which is
+         one of the most popular and feature rich websocket libraries. -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- You can point the src for the script to any host online, but
+         by default the socket.io nodejs library will host the client library
+         online at your node.js address under /socket.io/socket.io.js
+         You can disable that on the server if desired -->
+    <script src="./client/client.js"></script>
+</head>
+<body>
+  <canvas id="workSpace" width="500" height="400"></canvas>
+</body>
+</html>
